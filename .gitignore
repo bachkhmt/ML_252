@@ -1,0 +1,36 @@
+# --- Python & Notebooks ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.virtualenvs/
+venv/
+env/
+
+# --- Jupyter Notebook (Colab) ---
+.config/
+sample_data/
+
+# --- Data & Models (Dữ liệu nặng không nên push lên Git) ---
+data/
+*.csv
+*.xlsx
+*.json
+*.h5
+*.npy
+*.pth
+*.pkl
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# --- Logs & Temp ---
+*.log
+tmp/
+temp/
+
+# --- Environment Secrets ---
+.env
