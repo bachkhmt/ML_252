@@ -334,10 +334,10 @@ models = {
 
 ## 📚 Tài Liệu Tham Khảo
 
-1. Scikit-learn Documentation: https://scikit-learn.org/
-2. Pandas Documentation: https://pandas.pydata.org/
-3. [Tên dataset] Documentation: [Link]
-4. Course Materials: [Link đến tài liệu môn học]
+1. **Scikit-learn Documentation**: [https://scikit-learn.org/](https://scikit-learn.org/)
+2. **Pandas Documentation**: [https://pandas.pydata.org/](https://pandas.pydata.org/)
+3. **Adult Census Income Dataset**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/2/adult)
+4. **Course Materials**: [Tài liệu môn Học Máy (CO3001) - BK ELearning](https://lms.hcmut.edu.vn/)
 
 ---
 
@@ -357,11 +357,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Liên Hệ
 
-Nếu có thắc mắc về dự án, vui lòng liên hệ:
-
-- **Trưởng nhóm:** Hoàng Xuân Bách - bach.hoang2407khmt@hcmut.edu.vn
-- **Issues:** [GitHub Issues](https://github.com/your-username/ml-tabular-project/issues)
-
 ---
-
-**⭐ Nếu bạn thấy dự án này hữu ích, hãy cho chúng tôi một star!**
