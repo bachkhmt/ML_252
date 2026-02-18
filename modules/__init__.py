@@ -10,14 +10,8 @@ __author__ = "Hoàng Xuân Bách, Nguyễn Việt Hùng, Trần Văn Hùng"
 
 from . import config
 from . import preprocessing
-from . import features
+from . import feature          # file tên feature.py
 from . import models
-from . import evaluation
+from . import evaluate         # file tên evaluate.py
 
-__all__ = [
-    'config',
-    'preprocessing',
-    'features',
-    'models',
-    'evaluation'
-]
+__all__ = ["config", "preprocessing", "feature", "models", "evaluate"]

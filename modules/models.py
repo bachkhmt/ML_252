@@ -11,8 +11,14 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
-from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
+try:
+    from xgboost import XGBClassifier
+except ImportError:
+    XGBClassifier = None  # pip install xgboost
+try:
+    from lightgbm import LGBMClassifier
+except ImportError:
+    LGBMClassifier = None  # pip install lightgbm
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, cross_val_score
 import joblib
 import time
@@ -56,16 +62,19 @@ class ModelTrainer:
         dict
             Dictionary of model name to model instance
         """
-        models = {
+        models_candidates = {
             'LogisticRegression': LogisticRegression(**config.MODELS_CONFIG['LogisticRegression']),
             'SVC': SVC(**config.MODELS_CONFIG['SVC']),
             'RandomForest': RandomForestClassifier(**config.MODELS_CONFIG['RandomForest']),
-            'XGBoost': XGBClassifier(**config.MODELS_CONFIG['XGBoost']),
-            'LightGBM': LGBMClassifier(**config.MODELS_CONFIG['LightGBM']),
             'KNN': KNeighborsClassifier(n_neighbors=5),
             'DecisionTree': DecisionTreeClassifier(random_state=config.RANDOM_STATE),
             'GaussianNB': GaussianNB(),
         }
+        if XGBClassifier is not None:
+            models_candidates['XGBoost'] = XGBClassifier(**{k:v for k,v in config.MODELS_CONFIG['XGBoost'].items() if k != 'use_label_encoder'})
+        if LGBMClassifier is not None:
+            models_candidates['LightGBM'] = LGBMClassifier(**config.MODELS_CONFIG['LightGBM'])
+        models = models_candidates
         
         return models
     
