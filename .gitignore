@@ -114,3 +114,17 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+data/processed/
+data/raw/
+features/*.npy
+features/*.txt
+
+# 2. Kết quả huấn luyện (File nhị phân nặng)
+models/*.joblib
+models/*.pth
+models/*.h5
+
+# 3. Báo cáo và hình ảnh (Sinh ra từ notebook)
+reports/figures/*.png
+reports/*.csv
