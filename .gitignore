@@ -128,3 +128,8 @@ models/*.h5
 # 3. Báo cáo và hình ảnh (Sinh ra từ notebook)
 reports/figures/*.png
 reports/*.csv
+
+
+artifacts/
+eda_outputs/
+features/
