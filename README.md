@@ -92,20 +92,14 @@ ml-tabular-project/
 │   │   ├── train_features.npy/npz  # Features sau preprocessing (traditional)
 │   │   ├── test_features.npy/npz
 │   │   ├── feature_names.json
-│   │   ├── dl_train_features.npy   # Features cho DL pipeline
-│   │   └── dl_test_features.npy
 │   ├── eda_outputs/
 │   │   ├── model_zoo_results.csv   # CV kết quả toàn bộ model zoo
 │   │   └── model_selection_log.csv # Selection log so với baseline
 │   └── deep_learning/
 │       ├── best_dl_model.pt        # Weights best DL model (PyTorch)
 │       ├── dl_feature_pipe.joblib  # DL preprocessing pipeline
-│       ├── best_dl_meta.json       # Metadata (model name, input_dim, svd_k)
-│       └── dl_test_predictions.csv # Predictions + probabilities
-│
 ├── reports/
-│   └── Báo_cáo_BTL_Nhóm.pdf
-│
+│   └── report.pdf
 ├── requirements.txt
 ├── .gitignore
 └── README.md
