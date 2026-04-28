@@ -1,4 +1,4 @@
-# [CO3001] BÀI TẬP LỚN HỌC MÁY - HỌC KỲ I (2025-2026)
+# [CO3001] BÀI TẬP LỚN HỌC MÁY - HỌC KỲ II (2025-2026)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ml-tabular-project/blob/main/notebooks/main_notebook.ipynb)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
