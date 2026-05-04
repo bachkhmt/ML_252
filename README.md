@@ -77,6 +77,7 @@ This project aims to:
 ```
 ml-tabular-project/
 │
+├── modules/
 ├── notebooks/
 │   └── main_notebook_final.ipynb   # Main notebook (Runtime → Run All: 100% error-free)
 │
@@ -99,7 +100,7 @@ ml-tabular-project/
 │       ├── best_dl_meta.json       # Metadata (model name, input_dim, svd_k)
 │       └── dl_test_predictions.csv # Predictions + probabilities
 │
-├── reports/
+├── report/
 │   └── report.pdf
 │
 ├── requirements.txt
