@@ -5,7 +5,7 @@
 
 This project builds a complete machine learning system for **Tabular Data** — predicting airline passenger satisfaction — following the traditional ML pipeline and extending it with a deep learning comparison.
 
-> **Report:** [📄 View PDF Report](reports/report.pdf) &nbsp;|&nbsp; **Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ml-tabular-project/blob/main/notebooks/main_notebook_final.ipynb)
+> **Report:** [📄 View PDF Report](reports/report.pdf) &nbsp;|&nbsp; **Notebook:** [![Open In Colab](link)
 
 ---
 
