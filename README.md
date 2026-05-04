@@ -1,4 +1,4 @@
-# [CO3001] Machine Learning Course Project — Semester I (2025–2026)
+# [CO3001] Machine Learning Course Project — Semester II (2025–2026)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ml-tabular-project/blob/main/notebooks/main_notebook_final.ipynb)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -15,7 +15,7 @@ This project builds a complete machine learning system for **Tabular Data** — 
 |---|---|
 | **Course Name** | Machine Learning |
 | **Course Code** | CO3001 |
-| **Semester** | I — Academic Year 2025–2026 |
+| **Semester** | II — Academic Year 2025–2026 |
 | **Instructor** | Dr. Lê Thành Sách |
 | **Department** | Department of Computer Science |
 | **University** | Ho Chi Minh City University of Technology, VNU-HCM |
