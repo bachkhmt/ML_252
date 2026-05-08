@@ -1,11 +1,11 @@
 # [CO3001] Machine Learning Course Project — Semester II (2025–2026)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ml-tabular-project/blob/main/notebooks/main_notebook_final.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NIKJXcbI3J8zjeyDDe1DrMhkRuGD0eqH)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 This project builds a complete machine learning system for **Tabular Data** — predicting airline passenger satisfaction — following the traditional ML pipeline and extending it with a deep learning comparison.
 
-> **Report:** [📄 View PDF Report](reports/report.pdf) &nbsp;|&nbsp; **Notebook:** [![Open In Colab](link)
+> **Report:** [📄 View PDF Report](https://drive.google.com/file/d/1sSSL3Enb4HpcYFbCHs-oRawPhycTMWQz/view?usp=sharing) &nbsp;|&nbsp; **Notebook:** [📓 Open in Colab](https://colab.research.google.com/drive/1NIKJXcbI3J8zjeyDDe1DrMhkRuGD0eqH)
 
 ---
 
