@@ -1,0 +1,6 @@
+{
+  "best_dl_name": "FTTransformer",
+  "input_dim": 27,
+  "svd_k": null,
+  "threshold": 0.5
+}
